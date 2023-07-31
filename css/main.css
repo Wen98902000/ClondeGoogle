@@ -1,0 +1,159 @@
+body
+{
+    background-color: rgb(252, 249, 251) ;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+header{
+    background-color: rgb(253, 251, 253);
+    width: 100%;
+    height: 50px;
+}
+header nav{
+    background-color: rgb(255, 0, 191);
+    display: flex;
+    justify-content: flex-end;
+}
+header nav .nav-right-section {
+   
+    list-style: none;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+nav .nav-right-section a{
+    color: black;
+    text-decoration: none;
+    margin-right: 25px;
+}
+nav .nav-right-section .menú{
+    background-image: url(https://cdn-icons-png.flaticon.com/128/17/17704.png);
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+nav .nav-right-section img{
+    margin-left: 20px;
+    border-radius: 100px;
+    width: 35px;
+}
+
+
+main{
+    text-align: center;
+    margin-top: 160px;
+
+
+}
+
+main .main-logo{
+    width: 530px;
+    
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+main .main-logo img{
+    height: 140px;
+}
+
+main .main-input{
+    
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+main .main-input-container{
+    
+    border: 1px solid blueviolet;
+    border-radius: 30px;
+    width: 530px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+main .main-input input{
+    
+    height: 40px;
+    width: 450px;
+    border: none;
+    outline: none;
+
+
+}
+
+main .main-input .search-icon{
+    background-image:  url(https://w7.pngwing.com/pngs/648/874/png-transparent-magnifying-glass-computer-icons-magnifying-glass-glass-desktop-wallpaper-circle.png);
+    background-position: center;
+    width: 15px;
+    height: 15px;
+    background-size: contain;
+    padding-left: 6%;
+    background-repeat: no-repeat;
+}
+main .main-input .micro-icon{
+    background-image: url(https://i.pinimg.com/originals/ea/5f/5b/ea5f5bd3b4110f2afb958049b4096d3a.png);
+    
+    width: 17px; 
+    height: 17px;
+    background-position-x: center;
+    background-size: contain;
+    padding: 1%;
+    background-repeat: no-repeat;
+
+}
+
+main .main-input .cam-icon{
+    background-image: url(https://play-lh.googleusercontent.com/BDWTTN85mBETnnPg_qekwlk1uCxnbl4wtnVE8cz_WyMHEntEJgQsdJaT4uA0_N0VWg);
+    width: 17px;
+    height: 17px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 2%;
+}
+
+
+main .main-buttons{
+    
+    width: 550px;
+    margin: 0 auto;
+}
+main .main-buttons div{
+    display: inline-block;
+}
+
+main .main-buttons button{
+    border: 0;
+    height: 40px;
+    font-size: 14px;
+    color: brown;
+    border-radius: 4px;
+    margin-right: 10px;
+    padding: 0 15px;
+}
+
+main .main-input-container:hover{
+    box-shadow:5px black;
+}
+
+main .main-button button:hover{
+    color:black;
+    border: 1px solid aliceblue;
+    box-shadow: 0 0 5px red;
+
+}
